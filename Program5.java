@@ -20,5 +20,12 @@ public class Arithmetic {
         System.out.println("Multiplication : " + (x*y));
         System.out.println("Division : " + (x/y));
 
+        System.out.println("OrderOfOperation -> It follows BODMAS Rule");
+        System.out.println(8-3*3);
+        System.out.println(9/3*6/3);
+        System.out.println(8-5+7-1);
+        // In case of Same operator it executes from left to right
+        System.out.println(9/3/3);
+
     }
 }
