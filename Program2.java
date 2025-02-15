@@ -13,16 +13,19 @@ public class Program2 {
         System.out.print("Enter your name :");
         name = sc.nextLine();
         System.out.println(name);
+        System.out.println();
 
         System.out.println("Enter the First number : ");
         num1 = sc.nextInt();
         System.out.println("Enter the Second number :");
         num2 = sc.nextInt();
         System.out.println("Sum of two numbers is : " + (num1+num2));
+        System.out.println();
 
         System.out.print("Enter a float number :");
         num3 = sc.nextFloat();
         System.out.println(num3);
+        System.out.println();
 
     }
 }
