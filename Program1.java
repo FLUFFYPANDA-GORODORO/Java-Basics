@@ -32,3 +32,4 @@ public class Variables {
 
 // \n -> It is used to go to the next line
 // \t -> It is used to give 4 spaces gap between any two words
+// Float number has upto 7 decimals
