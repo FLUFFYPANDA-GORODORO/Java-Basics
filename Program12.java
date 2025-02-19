@@ -58,13 +58,14 @@ public class Practice4 {
 
 //        fibonacciSeries(a);
 
-//        armStrong = isArmStrong(a);
-//        if(armStrong){
-//            System.out.println(a + " is a ArmStrong number");
-//        }
-//        else{
-//            System.out.println(a + " is not a ArmStrong number");
-//        }
+       armStrong = isArmStrong(a);
+       if(armStrong){
+           System.out.println(a + " is a ArmStrong number");
+       }
+       else{
+           System.out.println(a + " is not a ArmStrong number");
+       }
+        System.out.println();
 
         palindrome = reverseNUM(a);
         if(palindrome == a){
