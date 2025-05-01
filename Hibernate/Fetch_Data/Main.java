@@ -1,3 +1,5 @@
+//We have fetched the data using primary key
+
 package org.example;
 
 import org.hibernate.Session;
