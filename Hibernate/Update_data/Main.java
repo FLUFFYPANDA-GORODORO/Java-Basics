@@ -13,9 +13,9 @@ public class Main {
     public static void main(String[] args) {
 
         Student s1 = new Student();
-        s1.setName("John");
-        s1.setRollNo(4);
-        s1.setAge(20);
+        // s1.setName("John");
+        // s1.setRollNo(4);
+        // s1.setAge(20);
 
 
 
@@ -31,7 +31,11 @@ public class Main {
         Session session = sf.openSession();
 
         Transaction transaction = session.beginTransaction();
-        session.merge(s1);
+        // session.merge(s1);
+        
+        //For deleting the data from the database
+        s1 = session.get(Student.class , 101);
+        session.remove(s1);
         transaction.commit();
 
         session.close();
