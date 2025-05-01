@@ -4,7 +4,7 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 
 @Entity
-
+@Table(name="Student-Table")
 public class Student {
 
     public int getAge() {
@@ -40,6 +40,7 @@ public class Student {
                 '}';
     }
     @Id
+    @Column(name = "Roll no")
     private int rollNo;
     private String name;
     private int age;
